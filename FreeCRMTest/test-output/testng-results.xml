@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10334" started-at="2020-05-20T15:44:35 IST" finished-at="2020-05-20T15:44:46 IST">
+  <suite name="Default suite" duration-ms="18018" started-at="2020-05-21T15:35:41 IST" finished-at="2020-05-21T15:35:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10334" started-at="2020-05-20T15:44:35 IST" finished-at="2020-05-20T15:44:46 IST">
+    <test name="Default test" duration-ms="18018" started-at="2020-05-21T15:35:41 IST" finished-at="2020-05-21T15:35:59 IST">
       <class name="com.crm.qa.testcases.Loginpagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="setup" is-config="true" duration-ms="7091" started-at="2020-05-20T15:44:35 IST" finished-at="2020-05-20T15:44:42 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="setup" is-config="true" duration-ms="7180" started-at="2020-05-21T15:35:41 IST" finished-at="2020-05-21T15:35:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatelogin()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="validatelogin" duration-ms="2519" started-at="2020-05-20T15:44:42 IST" finished-at="2020-05-20T15:44:45 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="loginPageTitleTest" duration-ms="26" started-at="2020-05-21T15:35:48 IST" finished-at="2020-05-21T15:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="teardown" is-config="true" duration-ms="693" started-at="2020-05-21T15:35:48 IST" finished-at="2020-05-21T15:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="setup" is-config="true" duration-ms="6123" started-at="2020-05-21T15:35:49 IST" finished-at="2020-05-21T15:35:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogin()[pri:2, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="validatelogin" duration-ms="2721" started-at="2020-05-21T15:35:55 IST" finished-at="2020-05-21T15:35:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="teardown" is-config="true" duration-ms="652" started-at="2020-05-20T15:44:45 IST" finished-at="2020-05-20T15:44:46 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.crm.qa.testcases.Loginpagetest@1c3a4799]" name="teardown" is-config="true" duration-ms="1192" started-at="2020-05-21T15:35:58 IST" finished-at="2020-05-21T15:35:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

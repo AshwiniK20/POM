@@ -5,7 +5,7 @@
     <classes>
       <class name="com.crm.qa.testcases.Loginpagetest">
         <methods>
-          <include name="validatelogin"/>
+          <include name="loginPageTitleTest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
